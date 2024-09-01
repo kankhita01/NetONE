@@ -1,0 +1,131 @@
+/*extra small devices(portrait phones, less than 576px)*/
+@media(max-width: 575.98px){
+    .top {
+        padding: 25px 0;
+    }
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: start;
+    }
+    /* banner part */
+    .banner {
+        padding-bottom: 50px;
+    }
+    .height h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .height p {
+        line-height: 25px;
+    }
+    .btn_signin {
+        padding: 8px 45px;
+    }
+    /* feature part */
+    .features {
+        padding: 30px 0 0 0;
+    }
+    .feature_item li {
+        height: 30px;
+        width: 30px;
+    }
+    .feature-box h3 {
+        font-size: 22px;
+    }
+    .feature-box p {
+        font-size: 16px;
+    }
+    /* details part */
+    .details {
+        padding: 50px 0px;
+    }
+    .details h1 {
+        font-size: 28px;
+    }
+    .details p {
+        font-size: 16px;
+    }
+    /* price section */
+    .heading_h {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .heading_p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* social part */
+    .s_icon ul li {
+        width: 75px;
+        text-align: center;
+    }
+    .s_icon ul li {
+        margin-right: 0px !important;
+    }
+    /* customer part */
+    .customer {
+        padding-bottom: 130px;
+    }
+    /* form part */
+    .form {
+        padding: 20px 40px;
+        width: 70%;
+    }
+    .form .btn_submit {
+        padding: 7px 20px;
+    }
+    /* footer part */
+    footer {
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
+    .f_1 {
+        margin-bottom: 30px;
+    }
+    .f_head {
+        margin-bottom: 10px;
+    }
+}
+
+/*small devices(landscape phones, 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.98px){
+    /* header start */
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: start;
+    }
+    .s_icon ul li {
+        width: 90px;
+    }
+}
+
+/*medium devices(tablets, 768px and up)*/
+@media(min-width: 768px) and (max-width: 991.98px){
+    .menu ul li a{
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: start;
+    }
+    .s_icon ul li {
+        width: 90px;
+    }
+}
+
+/*large devices(desktops, 992px and up)*/
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .s_icon ul li {
+        width: 130px;
+    }
+}
+
+/*extra large devices(extra large desktops, 1200px and up)*/
+@media(min-width: 1200px) and (max-width: 1399.98px){
+
+}
+
+/*extra extra large devices(extra extra large desktops, 1400px and up)*/
+@media(min-width: 1400px){
+
+}
